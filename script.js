@@ -4,5 +4,5 @@ function getFormvalue() {
             const lastName = document.getElementsByName("lname")[0].value;
 
             // Display the values in an alert
-            alert("First Name: " + firstName + "\nLast Name: " + lastName);
+            alert(firstName + " " + lastName);
         }
